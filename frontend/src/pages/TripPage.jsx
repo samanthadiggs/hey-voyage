@@ -1,0 +1,11 @@
+import TripForm from "../components/TripForm";
+
+const TripPage = () => {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <TripForm />
+    </div>
+  );
+};
+
+export default TripPage;
