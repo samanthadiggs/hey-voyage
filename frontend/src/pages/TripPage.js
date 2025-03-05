@@ -2,7 +2,7 @@ import TripForm from "../components/TripForm";
 
 const TripPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light">
       <TripForm />
     </div>
   );
