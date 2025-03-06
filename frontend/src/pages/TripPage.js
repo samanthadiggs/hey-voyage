@@ -8,9 +8,8 @@ const TripPage = () => {
           {/* Header inside TripPage */}
           <div className="text-center mb-4">
             <h1>Your dream trip begins now</h1>
-            <p>Where would you like to go</p>
+            <p>Where would you like to go?</p>
           </div>
-
           <TripForm />
         </div>
       </div>

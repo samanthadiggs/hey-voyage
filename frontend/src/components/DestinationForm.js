@@ -1,11 +1,8 @@
-const DestinationForm = ({destination, setDestination, startDate, setStartDate, endDate, setEndDate}) => {
-    const addMultipleStops = () => {
-        console.log("added more stops")
-    };
+const DestinationForm = ({destination, setDestination, startDate, setStartDate, endDate, setEndDate, addMultipleStops}) => {
+    
     return (
         <div>
             <div className="form-group">
-                <label>Destination</label>
                 <input type="text" className="form-control" placeholder="Enter Destination" value = {destination} onChange={(e) => setDestination(e.target.value)} required />
             </div>
 
@@ -22,6 +19,8 @@ const DestinationForm = ({destination, setDestination, startDate, setStartDate, 
                 </div>
             </div>
             <button className="btn btn-secondary mt-3" onClick={addMultipleStops}>Add Multiple Stops</button>
+
+
         </div>
     );
 };
