@@ -1,4 +1,4 @@
-const DestinationForm = ({destination, setDestination, startDate, setStartDate, endDate, setEndDate, addMultipleStops}) => {
+const DestinationForm = ({destination, setDestination, startDate, setStartDate, endDate, setEndDate, addMultipleStops, addStop}) => {
     
     return (
         <div>
@@ -18,6 +18,7 @@ const DestinationForm = ({destination, setDestination, startDate, setStartDate, 
                     <input type="date" className="form-control" value={endDate} onChange={(e) => setEndDate(e.target.value)} required />
                 </div>
             </div>
+            <button className="btn btn-secondary mt-3" onClick={addStop}>Save Stop</button>
             <button className="btn btn-secondary mt-3" onClick={addMultipleStops}>Add Multiple Stops</button>
 
 

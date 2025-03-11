@@ -19,7 +19,7 @@ const EditStopModal = ({ show, stop, setStop, saveEdit, removeStop, closeModal }
                 />
                 <div className="modal-buttons">
                     <button className="btn btn-primary" onClick={saveEdit}>Save</button>
-                    <button onClick={removeStop}>Remove Stop</button>
+                    <button className="btn btn-danger" onClick={removeStop}>Remove Stop</button>
                     <button className="btn btn-secondary" onClick={closeModal}>Cancel</button>
                 </div>
             </div>
