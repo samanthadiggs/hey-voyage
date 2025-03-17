@@ -1,0 +1,35 @@
+/* filepath: /Users/samanthadiggs/Desktop/code/hey-voyage/frontend/src/components/DestinationForm.module.css */
+
+.formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formControl {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .button {
+    background-color: #F8F7F7;
+    color: black;
+    padding: 24px 23px;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+  }
+
+  .destinationSection {
+    display: flex;
+  }
+
+  .destinationInput {
+    background-color: #F8F7F7;
+    padding: 24px 23px;
+    border-radius: 21px;
+    border:none;
+  }
+
+  .destinationInput::placeholder{
+    color:black;
+  }

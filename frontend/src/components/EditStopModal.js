@@ -8,7 +8,7 @@ const EditStopModal = ({ show, stop, setStop, saveEdit, removeStop, closeModal }
     return (
         <div className="modal-overlay">
             <div className="modal-content">
-                <h3>Edit Stop: {stop.name}</h3>
+                <h3>Edit Stop: {stop.destination}</h3>
                 <label>Days at this stop:</label>
                 <input
                     type="number"

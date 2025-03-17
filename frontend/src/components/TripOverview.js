@@ -46,19 +46,10 @@ const TripOverview = ({
                     <>
                         {stops.map((stop,index) => (
                             <div className="destination-details">
-                                <p key={index}>{stop.name} - {stop.days}</p>
+                                <p key={index}>{stop.destination} - {stop.startDate} -  {stop.endDate}</p>
                                 <button onClick={() => openEditModal(index, stop)}>edit</button>
                             </div>
                         ))}
-                        <h4>Stops:</h4>
-                        <ul className="list-group">
-                            {stops.map((stop, index) => (
-                                <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
-                                    {stop.name} - {stop.days} days
-                                    <button onClick={() => openEditModal(index, stop)}>edit</button>
-                                </li>
-                            ))}
-                        </ul>
                     </>
                 )}
             </div>
