@@ -5,7 +5,7 @@ const LandingPage = () => {
         <>
         <nav>
             <a>About</a>
-            <Link to ="/">Log In</Link>
+            <Link to ="/LoginPage">Log In</Link>
         </nav>
         <h1>hey voyage!</h1>
         <h2>your perfect travel buddy</h2>
@@ -20,7 +20,7 @@ const LandingPage = () => {
                     <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="..."/>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
                     <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="..."/>
