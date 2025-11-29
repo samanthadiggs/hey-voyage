@@ -25,6 +25,9 @@ const LoginPage = () => {
                 localStorage.setItem("session_token", data.token);
                 console.log("Login successful");
                 // Redirect to dashboard or home page
+                window.location.href = "/TripPage";
+                
+
             }
 
         } catch (error) {

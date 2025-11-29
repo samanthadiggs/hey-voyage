@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const EditStopModal = ({ show, stop, setStop, saveEdit, removeStop, closeModal }) => {
     if (!show) return null; // Don't render if modal is not active
 
