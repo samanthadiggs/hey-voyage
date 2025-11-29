@@ -9,9 +9,9 @@ module.exports = {
     },
 
     // function to find user by email
-    findUserByEmail(email){
+    findUserByEmail(identifier){
         const stmt = db.prepare(`SELECT * FROM users WHERE email = ?`);
-        const user = stmt.get(email);
+        const user = stmt.get(identifier);
         return user;
     }
 

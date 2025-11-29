@@ -1,7 +1,8 @@
 export async function login(identifier, password){
 
     try{
-        const res = await fetch("http://localhost:5000/auth/login", {
+        console.log("➡️ Sending login request");
+        const res = await fetch("http://localhost:5001/auth/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -13,7 +14,8 @@ export async function login(identifier, password){
     return {res, data};
 
     } catch (error) {
-        console.error("Fetch error:", error);
+        console.log("Fetch error:", error);
+        //console.error("Fetch error:", error);
         return { res: null, data: { error: "Load Failed" } };
     }
     
